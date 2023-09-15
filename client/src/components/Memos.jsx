@@ -58,8 +58,8 @@ const Memos = ({ state }) => {
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Address</th>
-                    <th>Message</th>
+                    {/* <th>Address</th> */}
+                    <th>Job</th>
                 </tr>
             </thead>
             <tbody>
@@ -67,8 +67,10 @@ const Memos = ({ state }) => {
                     return (
                         <>
                             <tr>
-                                <td>{memo.name}</td>
-                                <td>{memo.from}</td>
+                                <td>{memo.name}
+
+                                </td>
+                                {/* <td>{memo.from}</td> */}
                                 <td>{memo.message}</td>
                             </tr>
                         </>

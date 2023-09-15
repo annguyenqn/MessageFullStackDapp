@@ -36,16 +36,15 @@ const Buy = ({ state }) => {
         //             <input type="submit" value="Pay" disabled={!state.contract} />
         //         </div>
         //     </form>
-
         // </div>
         <>
             <form onSubmit={buyChai}>
                 <Form.Group className="mb-3" controlId="nameForm.ControlInput1" >
                     <Form.Label>Name</Form.Label>
                     <Form.Control id="name" />
-                    <Form.Label>Message</Form.Label>
+                    <Form.Label>Job</Form.Label>
                     <Form.Control id="message" />
-                    <input type="submit" value="Pay" disabled={!state.contract}></input>
+                    <input type="submit" value="Add Job" disabled={!state.contract}></input>
                 </Form.Group>
             </form>
         </>

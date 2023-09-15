@@ -53,22 +53,14 @@ function App() {
     template();
   }, [])
   return (
-    // <div style={{ display: 'flex', justifyContent: 'center' }} >
-    //   <p style={{  marginTop: "10px", marginLeft: "5px" }}>
-    //     <small>Connected Account - {account}</small>
-    //   </p>
-
-    //   <Buy state={state} />
-    //   <Memos state={state} />
-    // </div>
     <Container>
       <Row md={4}>
-        <Col> <p> <small>Connected Account - {account}</small> </p> </Col>
+        {/* <Col> <p> <small>Connected Account - {account}</small> </p> </Col> */}
+        <Col>ToDo List</Col>
         <Col xs={6}><Buy state={state} /></Col>
         <Col><Memos state={state} /></Col>
       </Row>
     </Container>
   )
 }
-
 export default App
